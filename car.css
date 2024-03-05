@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+body{
+    background-image: url(black-car-4k-tp2who005d8oxzrn.jpg);
+      background-size: cover;
+    
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+header nav .logo{
+width: 230px;
+margin-top: 10px;
+}
+nav .list a{
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav .list a:hover{
+    border-bottom: 2px solid red;
+}
+nav .social a{
+color: white;
+font-size: 20px;
+padding: 8px;
+margin-right: 8px;
+}
+nav .social a i:hover{
+    transform: scale(1.3s);
+    color: rgb(177, 1, 1);
+}
+.hero{
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hero .text{
+    width: 90%;
+    margin: auto;
+}
+.hero .text h4{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hero .text h1{
+    color: #fff;
+    font-size: 65px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.hero .text h1 span{
+    color: rgb(177, 1, 1);
+    font-size: 80px;
+    font-weight: bold;
+}
+.hero .text p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.hero .text .btn{
+    padding: 10px 30px;
+    background-color: rgb(177, 1, 1) ;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgb(177, 1, 1);
+    transition: 0.3s;
+}
+.hero .text .btn:hover{
+    background-color: transparent;
+}
